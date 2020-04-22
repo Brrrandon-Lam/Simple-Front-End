@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
     text-decoration: none;
     font-family: Helvetica;
     padding-top: 0px;
@@ -50,10 +50,6 @@ h1 {
     right: 0;
 }
 
-ul li.first:first-child {
-    text-decoration: underline;
-    text-decoration-color: deepskyblue;
-}
 
 ul {
     background-color: white;
@@ -81,6 +77,8 @@ li a {
         color: deepskyblue;
         cursor: pointer;
     }
+
+li
 
 #create-twit-button:hover {
     background-color: deepskyblue;
@@ -127,8 +125,6 @@ li a {
     border: 1px solid black;
     width: 460px;
     height: 150px;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .twit-icon {
@@ -141,8 +137,9 @@ li a {
 
 .twit-content {
     padding-top: 15px;
+    width: 400px;
 }
 
-.twit .twit-author {
-    text-align: right;
-}
+    .twit-content .twit-author {
+        text-align: right;
+    }
