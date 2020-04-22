@@ -1,0 +1,145 @@
+﻿
+body {
+    text-decoration: none;
+    font-family: Helvetica;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    background: lightgrey;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1 {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 0px;
+    background: deepskyblue;
+}
+
+#create-twit-button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+    float: right;
+    margin: 6px, 3px;
+    border-radius: 50%;
+}
+
+ul {
+    background-color: white;
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 20px;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
+
+    ul li {
+        float: left;
+    }
+
+li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+    li a:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+
+#create-twit-button:hover {
+    background-color: deepskyblue;
+    padding: 18px;
+}
+
+#navbar-search-input {
+    background: lightgrey;
+}
+
+.navbar .navbar-search {
+    float: right;
+}
+
+#navbar-search-input:focus {
+    background: white;
+    border: 1px solid black;
+}
+
+#navbar-search-button {
+    background: none;
+    border: none;
+    font-size: 17px;
+}
+
+    #navbar-search-button:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
+
+
+.twit-container {
+    background: lightgrey;
+}
+
+.twit {
+    background: white;
+    display: inline-flex;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    width: 460px;
+    height: 150px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.twit-icon {
+    margin-top: 17px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.twit-content {
+    padding-top: 15px;
+}
+
+.twit .twit-author {
+    float: right;
+    position: fixed;
+}
+
+
