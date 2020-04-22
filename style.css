@@ -60,9 +60,9 @@ ul {
     overflow: hidden;
 }
 
-    ul li {
-        float: left;
-    }
+ul li {
+    float: left;
+}
 
 li a {
     display: block;
@@ -73,12 +73,10 @@ li a {
     font-size: 25px;
 }
 
-    li a:hover {
-        color: deepskyblue;
-        cursor: pointer;
-    }
-
-li
+li a:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
 
 #create-twit-button:hover {
     background-color: deepskyblue;
@@ -104,10 +102,10 @@ li
     font-size: 17px;
 }
 
-    #navbar-search-button:hover {
-        color: deepskyblue;
-        cursor: pointer;
-    }
+#navbar-search-button:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
 
 
 .twit-container {
@@ -140,6 +138,6 @@ li
     width: 400px;
 }
 
-    .twit-content .twit-author {
-        text-align: right;
-    }
+.twit-content .twit-author {
+    text-align: right;
+}
