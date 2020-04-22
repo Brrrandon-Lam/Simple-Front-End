@@ -118,8 +118,7 @@ li a {
 
 .twit {
     background: white;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-flex;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 10px;
