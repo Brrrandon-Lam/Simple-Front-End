@@ -1,4 +1,5 @@
-﻿﻿body {
+﻿
+body {
     text-decoration: none;
     font-family: Helvetica;
     padding-top: 0px;
@@ -46,8 +47,8 @@ h1 {
     font-size: 35px;
     margin: 6px, 3px;
     border-radius: 50%;
-    bottom: 0;
-    right: 0;
+    bottom: 10%;
+    right: 2%;
 }
 
 
@@ -60,9 +61,9 @@ ul {
     overflow: hidden;
 }
 
-ul li {
-    float: left;
-}
+    ul li {
+        float: left;
+    }
 
 li a {
     display: block;
@@ -73,10 +74,10 @@ li a {
     font-size: 25px;
 }
 
-li a:hover {
-    color: deepskyblue;
-    cursor: pointer;
-}
+    li a:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
 
 #create-twit-button:hover {
     background-color: deepskyblue;
@@ -85,6 +86,7 @@ li a:hover {
 
 #navbar-search-input {
     background: lightgrey;
+    font-size: 20px;
 }
 
 .navbar .navbar-search {
@@ -99,17 +101,20 @@ li a:hover {
 #navbar-search-button {
     background: none;
     border: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
-#navbar-search-button:hover {
-    color: deepskyblue;
-    cursor: pointer;
-}
+    #navbar-search-button:hover {
+        color: deepskyblue;
+        cursor: pointer;
+    }
 
 
 .twit-container {
+    align-items: center;
+    justify-content: center;
     background: lightgrey;
+    height: 100vh
 }
 
 .twit {
@@ -138,6 +143,6 @@ li a:hover {
     width: 400px;
 }
 
-.twit-content .twit-author {
-    text-align: right;
-}
+    .twit-content .twit-author {
+        text-align: right;
+    }
