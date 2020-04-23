@@ -1,7 +1,7 @@
 ﻿
 body {
     text-decoration: none;
-    font-family: Helvetica;
+    font-family: Roboto 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 400;
     padding-top: 0px;
     padding-left: 0px;
     margin-left: 0px;
@@ -23,7 +23,8 @@ a:hover {
 }
 
 a:active {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
 }
 
 h1 {
@@ -47,7 +48,7 @@ h1 {
     font-size: 35px;
     margin: 6px, 3px;
     border-radius: 50%;
-    bottom: 10%;
+    bottom: 5%;
     right: 2%;
 }
 
@@ -143,6 +144,6 @@ li a {
     width: 400px;
 }
 
-    .twit-content .twit-author {
-        text-align: right;
-    }
+.twit-content .twit-author {
+    text-align: right;
+}
