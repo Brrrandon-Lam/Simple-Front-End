@@ -9,7 +9,7 @@
     padding-left: 0px;
     margin-top: 0px;
     margin-left: 0px;
-    background: lightgrey;
+    background: #C0C0C0;
 }
 
 a:link {
@@ -23,12 +23,12 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: deepskyblue;
+    color: DodgerBlue;
 }
 
 a:active {
     text-decoration: underline;
-    text-decoration-color: deepskyblue;
+    text-decoration-color: DodgerBlue;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
     display: block;
     padding: 20px;
     margin-bottom: 0px;
-    background: deepskyblue;
+    background: DodgerBlue;
 }
 
 #create-twit-button {
@@ -61,41 +61,52 @@ h1 {
     right: 2%;
 }
 
+li.active a {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 5px solid DodgerBlue;
+    text-decoration-color: DodgerBlue;
+}
 
 ul {
     background-color: white;
     list-style-type: none;
     margin-top: 0px;
-    padding: 20px;
-    margin-bottom: -10px;
+    padding-top: 15px;
+    margin-bottom: 0px;
     overflow: hidden;
 }
 
-    ul li {
-        float: left;
-    }
+ul li {
+    float: left;
+    margin-bottom: 0px;
+}
 
 li a {
     display: block;
     color: black;
     text-decoration: none;
     background-color: white;
-    padding-left: 20px;
+    padding-left: 15px;
+    padding-bottom: 0px;
     font-size: 25px;
+    margin-bottom: 0px;
 }
 
-    li a:hover {
-        color: deepskyblue;
-        cursor: pointer;
-    }
+li a:hover {
+    color: DodgerBlue;
+    cursor: pointer;
+}
 
 #create-twit-button:hover {
-    background-color: deepskyblue;
+    background-color: DodgerBlue;
     padding: 18px;
 }
 
 #navbar-search-input {
-    background: lightgrey;
+    background: #C0C0C0;
     font-size: 20px;
 }
 
@@ -114,16 +125,17 @@ li a {
     font-size: 20px;
 }
 
-    #navbar-search-button:hover {
-        color: deepskyblue;
-        cursor: pointer;
-    }
-
+#navbar-search-button:hover {
+    color: deepskyblue;
+    cursor: pointer;
+}
 
 .twit-container {
+    margin-left: 100px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
-    background: lightgrey;
+    background: #C0C0C0;
     height: 100vh
 }
 
@@ -134,7 +146,7 @@ li a {
     text-decoration: none;
     padding-left: 20px;
     padding-right: 10px;
-    margin: 5px;
+    margin: 15px;
     font-size: 20px;
     border: 1px solid black;
     width: 460px;
@@ -154,7 +166,7 @@ li a {
     width: 400px;
 }
 
-    .twit-content .twit-author {
-        font-weight: bold;
-        text-align: right;
-    }
+.twit-content .twit-author {
+    font-weight: bold;
+    text-align: right;
+}
