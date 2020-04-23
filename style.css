@@ -1,15 +1,15 @@
-﻿
-body {
-    text-decoration: none;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-left: 0px;
-    background: lightgrey;
+﻿body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    text-decoration: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background: lightgrey;
 }
 
 a:link {
@@ -32,6 +32,11 @@ a:active {
 }
 
 h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
     text-decoration: none;
     color: white;
     font-size: 40px;
@@ -125,6 +130,7 @@ li a {
 .twit {
     background: white;
     display: inline-flex;
+    justify-content: center;
     text-decoration: none;
     padding-left: 20px;
     padding-right: 10px;
@@ -136,7 +142,7 @@ li a {
 }
 
 .twit-icon {
-    margin-top: 17px;
+    margin-top: 15px;
     font-size: 30px;
     padding-left: 5px;
     padding-right: 10px;
@@ -148,6 +154,7 @@ li a {
     width: 400px;
 }
 
-.twit-content .twit-author {
-    text-align: right;
-}
+    .twit-content .twit-author {
+        font-weight: bold;
+        text-align: right;
+    }
