@@ -31,6 +31,10 @@ a:active {
     text-decoration-color: DodgerBlue;
 }
 
+a:visited {
+    color: black;
+}
+
 h1 {
     font-family: 'Roboto';
     font-style: normal;
@@ -142,6 +146,7 @@ li a:hover {
 .twit {
     background: white;
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-decoration: none;
     padding-left: 20px;
@@ -149,7 +154,7 @@ li a:hover {
     margin: 15px;
     font-size: 20px;
     border: 1px solid black;
-    width: 460px;
+    width: 28%;
     height: 150px;
 }
 
